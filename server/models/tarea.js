@@ -34,3 +34,5 @@ var tareaSchema = new Schema({
     }
 
 });
+
+module.exports = mongoose.model('Tarea', tareaSchema);
